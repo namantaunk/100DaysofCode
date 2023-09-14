@@ -20,7 +20,7 @@ Feel free to navigate the directories to explore the progression of concepts and
 1. **Clone the Repository**: Start by cloning this repository to your local machine using the following command:
 
    ```
-   git clone https://github.com/your-username/100daysofdsa-java.git
+   git clone https://github.com/your-username/100DaysofCode.git
    ```
 
 2. **Navigate to Specific Days**: Each day's work is organized in its corresponding directory. You can navigate to a specific day's directory using the command line or your file explorer.
