@@ -13,3 +13,26 @@ class Solution {
       return index;  
     }
 }
+
+
+
+// TWO SUM
+
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        int a=0,b=0;
+        for(int i=0;i<nums.length;i++)
+        {
+            for(int j=nums.length-1;j>i;j--)
+            {
+                if(nums[i]+nums[j]==target)
+                {
+                    a=i;
+                    b=j;
+                }
+            }
+        }
+        int[] ans= {a,b};
+        return ans;
+    }
+}
